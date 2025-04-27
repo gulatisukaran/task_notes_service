@@ -1,0 +1,28 @@
+jwttoken
+
+# Node.js dependencies
+node_modules/
+
+# Deno dependencies
+/.deno/
+
+# Supabase local environment variables
+.env
+
+# Build output
+/dist
+/build
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE or editor settings
+.vscode/
+.idea/
+
+# Supabase config file (optional, if you don't want to version control it)
+supabase/config.toml
